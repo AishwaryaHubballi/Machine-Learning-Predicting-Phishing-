@@ -27,28 +27,28 @@ Number of records : 2456
  This resulted in better accuracy scores.
  Hence continued with this split for further modeling.
  
-##Training the model
+## Training the model
 Since it is a classification problem: Support Vector Machine, Gaussian Naive Bayes Classifier,
 Random Forest Classifier, Decision Tree Classifier can be used.
 
- Results obtained on testing data sets are :
+ ### Results obtained on testing data sets are :
  Accuracies : Support Vector Classifier = 0.9531
               Gaussian Naive Bayes Classifier = 0.9395
               Random Forest Classifier = 0.9691
               Decision Tree Classifier = 0.9593
              
-8. Let us apply PCA(PRINCIPLE COMPONENT ANALYSIS) on data and train the models
- Results obtained on testing data sets are :
+ ## Let us apply PCA(PRINCIPLE COMPONENT ANALYSIS) on data and train the models
+ ### After applying PCA, results obtained on testing data sets are :
  Accuracies : Support Vector Classifier after applying PCA = 0.9642
               Gaussian Naive Bayes Classifier after applying PCA = 0.9346
               Random Forest Classifier after applying PCA = 0.9667
               Decision Tree Classifier after applying PCA = 0.9593
               
-##Conclusion
+## Conclusion
 Since Random Forest Classifier gives best accuracy and even high precision rate.
 Random Forest Classifier is selected to train our model.
 
-Working of Random Forest Classifier
+### Working of Random Forest Classifier
 Random subsets are created from the original dataset.
 At each node in the decision tree, only a random set of features are considered to decide the best split.
 A decision tree model is fitted on each of the subsets.
